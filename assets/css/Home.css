@@ -126,7 +126,7 @@
 
     .lading{
         background-color: var(--section-background);
-        background-image: url(/assets/img/kevin-grieve-S-jgfnOVIno-unsplash.jpg);
+        background-image: url(../img/kevin-grieve-S-jgfnOVIno-unsplash.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
