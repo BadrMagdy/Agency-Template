@@ -55,6 +55,16 @@
         letter-spacing: -3px;
         margin: 0;
     }
+    @media (max-width:767px){
+        .special-heading {
+              color: #ebeced;
+              font-size: 50px;
+              text-align: center;
+              font-weight: 800;
+              letter-spacing: -3px;
+              margin: 0;
+        }
+    }
     .special-heading + p{
         margin: -30px 0 0;
         font-size: 20px;
@@ -183,10 +193,6 @@
     /* Start futures css */
 
     /* Start Service css */
-
-    .service{
-       padding: 100px 100px;
-    }
     .service .services-content{
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
